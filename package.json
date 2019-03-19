@@ -1,0 +1,21 @@
+{
+  "name": "gulptest",
+  "version": "1.0.0",
+  "description": "gulp test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "web:scss": "gulp watch --gulpfile=./gulpfile.js"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "wp",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gul": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

@@ -1,0 +1,38 @@
+.content {
+    flex: 1;
+  }
+  
+  .search
+  {
+    &-list {
+      margin : 0 32rpx;
+    }
+    &-item {
+      background: #F7F7F7;
+      padding:11rpx 0;
+    }
+    &-condition-title {
+      font-family: PingFangSC-Regular;
+      font-size: 28rpx;
+      color: #757575;
+      padding:5rpx 24rpx 0 31rpx;
+    }
+    &-btn {
+      background: #F7FCFF;
+      border-width:1rpx;
+      border-style: solid;
+      border-color: #108EE9;
+      border-radius: 4rpx;
+      width:140rpx;
+      height:50rpx;
+      &-title {
+        font-family: PingFangSC-Regular;
+        font-size: 26rpx;
+        color: #108EE9;
+        text-align: center;
+        width:140rpx;
+        line-height:50rpx;
+      }
+    }
+  }
+  
